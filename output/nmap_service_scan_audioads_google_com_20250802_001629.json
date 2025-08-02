@@ -1,0 +1,86 @@
+{
+  "target": "audioads.google.com",
+  "scan_type": "nmap_service_scan",
+  "timestamp": "2025-08-02 00:16:29",
+  "nmap_version": "7.95",
+  "scan_args": "/usr/lib/nmap/nmap --privileged -sV -T4 --open -oX /tmp/tmpukk5i38c.xml audioads.google.com",
+  "hosts": [
+    {
+      "addresses": [
+        {
+          "addr": "216.58.209.206",
+          "addrtype": "ipv4",
+          "vendor": ""
+        }
+      ],
+      "hostnames": [
+        {
+          "name": "audioads.google.com",
+          "type": "user"
+        },
+        {
+          "name": "bud02s22-in-f206.1e100.net",
+          "type": "PTR"
+        }
+      ],
+      "status": {
+        "state": "up",
+        "reason": "syn-ack",
+        "reason_ttl": "122"
+      },
+      "ports": [
+        {
+          "portid": 80,
+          "protocol": "tcp",
+          "state": {
+            "state": "open",
+            "reason": "syn-ack",
+            "reason_ttl": "122"
+          },
+          "service": {
+            "name": "http",
+            "product": "gws",
+            "version": "",
+            "extrainfo": "",
+            "ostype": "",
+            "method": "probed",
+            "conf": "10"
+          },
+          "scripts": []
+        },
+        {
+          "portid": 443,
+          "protocol": "tcp",
+          "state": {
+            "state": "open",
+            "reason": "syn-ack",
+            "reason_ttl": "122"
+          },
+          "service": {
+            "name": "https",
+            "product": "gws",
+            "version": "",
+            "extrainfo": "",
+            "ostype": "",
+            "method": "probed",
+            "conf": "10"
+          },
+          "scripts": []
+        }
+      ],
+      "os": {},
+      "scripts": []
+    }
+  ],
+  "summary": {
+    "total_hosts": 1,
+    "hosts_up": 1,
+    "hosts_down": 0,
+    "total_open_ports": 2,
+    "unique_services": [
+      "http",
+      "https"
+    ],
+    "os_matches": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "target": "nl-cs-grq23-1-xx-corpa-nvr02.corp.google.com",
+  "scan_type": "port_scan",
+  "timestamp": "2025-08-02 00:23:36",
+  "open_ports": [],
+  "total_open": 0,
+  "total_scanned": 0,
+  "scan_settings": {
+    "threads": 50,
+    "timeout": 10
+  }
+}

@@ -1,0 +1,490 @@
+{
+  "target": "google.com",
+  "scan_type": "osint_collection",
+  "timestamp": "2025-08-02 00:48:14",
+  "sources": {
+    "shodan": {
+      "data": {},
+      "timestamp": "2025-08-02 00:48:14",
+      "status": "skipped",
+      "reason": "API key not provided"
+    },
+    "dns_records": {
+      "data": {
+        "A": [
+          {
+            "name": "google.com.",
+            "data": "74.125.131.101",
+            "ttl": 300
+          },
+          {
+            "name": "google.com.",
+            "data": "74.125.131.138",
+            "ttl": 300
+          },
+          {
+            "name": "google.com.",
+            "data": "74.125.131.113",
+            "ttl": 300
+          },
+          {
+            "name": "google.com.",
+            "data": "74.125.131.100",
+            "ttl": 300
+          },
+          {
+            "name": "google.com.",
+            "data": "74.125.131.102",
+            "ttl": 300
+          },
+          {
+            "name": "google.com.",
+            "data": "74.125.131.139",
+            "ttl": 300
+          }
+        ],
+        "AAAA": [
+          {
+            "name": "google.com.",
+            "data": "2a00:1450:4010:c0e::8a",
+            "ttl": 300
+          },
+          {
+            "name": "google.com.",
+            "data": "2a00:1450:4010:c0e::71",
+            "ttl": 300
+          },
+          {
+            "name": "google.com.",
+            "data": "2a00:1450:4010:c0e::64",
+            "ttl": 300
+          },
+          {
+            "name": "google.com.",
+            "data": "2a00:1450:4010:c0e::8b",
+            "ttl": 300
+          }
+        ],
+        "TXT": [
+          {
+            "name": "google.com.",
+            "data": "onetrust-domain-verification=de01ed21f2fa4d8781cbc3ffb89cf4ef",
+            "ttl": 3600
+          },
+          {
+            "name": "google.com.",
+            "data": "globalsign-smime-dv=CDYX+XFHUw2wml6/Gb8+59BsH31KzUr6c1l2BPvqKX8=",
+            "ttl": 3600
+          },
+          {
+            "name": "google.com.",
+            "data": "MS=E4A68B9AB2BB9670BCE15412F62916164C0B20BB",
+            "ttl": 3600
+          },
+          {
+            "name": "google.com.",
+            "data": "facebook-domain-verification=22rm551cu4k0ab0bxsw536tlds4h95",
+            "ttl": 3600
+          },
+          {
+            "name": "google.com.",
+            "data": "cisco-ci-domain-verification=47c38bc8c4b74b7233e9053220c1bbe76bcc1cd33c7acf7acd36cd6a5332004b",
+            "ttl": 3600
+          },
+          {
+            "name": "google.com.",
+            "data": "docusign=1b0a6754-49b1-4db5-8540-d2c12664b289",
+            "ttl": 3600
+          },
+          {
+            "name": "google.com.",
+            "data": "apple-domain-verification=30afIBcvSuDV2PLX",
+            "ttl": 3600
+          },
+          {
+            "name": "google.com.",
+            "data": "docusign=05958488-4752-4ef2-95eb-aa7ba8a3bd0e",
+            "ttl": 3600
+          },
+          {
+            "name": "google.com.",
+            "data": "v=spf1 include:_spf.google.com ~all",
+            "ttl": 3600
+          },
+          {
+            "name": "google.com.",
+            "data": "google-site-verification=TV9-DBe4R80X4v0M4U_bd_J9cpOJM0nikft0jAgjmsQ",
+            "ttl": 3600
+          },
+          {
+            "name": "google.com.",
+            "data": "google-site-verification=wD8N7i1JTNTkezJ49swvWW48f8_9xveREV4oB-0Hf5o",
+            "ttl": 3600
+          },
+          {
+            "name": "google.com.",
+            "data": "google-site-verification=4ibFUgB-wXLQ_S7vsXVomSTVamuOXBiVAzpR5IZ87D0",
+            "ttl": 3600
+          }
+        ],
+        "NS": [
+          {
+            "name": "google.com.",
+            "data": "ns2.google.com.",
+            "ttl": 21600
+          },
+          {
+            "name": "google.com.",
+            "data": "ns4.google.com.",
+            "ttl": 21600
+          },
+          {
+            "name": "google.com.",
+            "data": "ns3.google.com.",
+            "ttl": 21600
+          },
+          {
+            "name": "google.com.",
+            "data": "ns1.google.com.",
+            "ttl": 21600
+          }
+        ],
+        "6": [
+          {
+            "name": "google.com.",
+            "data": "ns1.google.com. dns-admin.google.com. 789698335 900 900 1800 60",
+            "ttl": 60
+          }
+        ],
+        "MX": [
+          {
+            "name": "google.com.",
+            "data": "10 smtp.google.com.",
+            "ttl": 300
+          }
+        ],
+        "257": [
+          {
+            "name": "google.com.",
+            "data": "0 issue \"pki.goog\"",
+            "ttl": 21600
+          }
+        ],
+        "65": [
+          {
+            "name": "google.com.",
+            "data": "1 . alpn=h2,h3",
+            "ttl": 21600
+          }
+        ]
+      },
+      "timestamp": "2025-08-02 00:48:14",
+      "status": "success"
+    },
+    "certificates": {
+      "data": {},
+      "timestamp": "2025-08-02 00:48:15",
+      "status": "failed"
+    },
+    "whois": {
+      "data": {
+        "domain": "google.com",
+        "available": "no",
+        "type": "Commercial Sites",
+        "registrar": "MarkMonitor Inc.",
+        "statuses": [
+          "clientDeleteProhibited",
+          "clientTransferProhibited",
+          "clientUpdateProhibited",
+          "serverDeleteProhibited",
+          "serverTransferProhibited",
+          "serverUpdateProhibited",
+          "clientUpdateProhibited (",
+          "clientTransferProhibited (",
+          "clientDeleteProhibited (",
+          "serverUpdateProhibited (",
+          "serverTransferProhibited (",
+          "serverDeleteProhibited ("
+        ],
+        "created": 874296000,
+        "updated": 1568043544,
+        "expires": 1852441200,
+        "whois": "Domain Name: GOOGLE.COM\r\n   Registry Domain ID: 2138514_DOMAIN_COM-VRSN\r\n   Registrar WHOIS Server: whois.markmonitor.com\r\n   Registrar URL: http://www.markmonitor.com\r\n   Updated Date: 2019-09-09T15:39:04Z\r\n   Creation Date: 1997-09-15T04:00:00Z\r\n   Registry Expiry Date: 2028-09-14T04:00:00Z\r\n   Registrar: MarkMonitor Inc.\r\n   Registrar IANA ID: 292\r\n   Registrar Abuse Contact Email: abusecomplaints@markmonitor.com\r\n   Registrar Abuse Contact Phone: +1.2086851750\r\n   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited\r\n   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\r\n   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited\r\n   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited\r\n   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited\r\n   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited\r\n   Name Server: NS1.GOOGLE.COM\r\n   Name Server: NS2.GOOGLE.COM\r\n   Name Server: NS3.GOOGLE.COM\r\n   Name Server: NS4.GOOGLE.COM\r\n   DNSSEC: unsigned\r\n   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/\r\n>>> Last update of whois database: 2025-08-01T21:48:02Z <<<\r\n\r\nFor more information on Whois status codes, please visit https://icann.org/epp\r\n\r\nNOTICE: The expiration date displayed in this record is the date the\r\nregistrar's sponsorship of the domain name registration in the registry is\r\ncurrently set to expire. This date does not necessarily reflect the expiration\r\ndate of the domain name registrant's agreement with the sponsoring\r\nregistrar.  Users may consult the sponsoring registrar's Whois database to\r\nview the registrar's reported date of expiration for this registration.\r\n\r\nTERMS OF USE: You are not authorized to access or query our Whois\r\ndatabase through the use of electronic processes that are high-volume and\r\nautomated except as reasonably necessary to register domain names or\r\nmodify existing registrations; the Data in VeriSign Global Registry\r\nServices' (\"VeriSign\") Whois database is provided by VeriSign for\r\ninformation purposes only, and to assist persons in obtaining information\r\nabout or related to a domain name registration record. VeriSign does not\r\nguarantee its accuracy. By submitting a Whois query, you agree to abide\r\nby the following terms of use: You agree that you may use this Data only\r\nfor lawful purposes and that under no circumstances will you use this Data\r\nto: (1) allow, enable, or otherwise support the transmission of mass\r\nunsolicited, commercial advertising or solicitations via e-mail, telephone,\r\nor facsimile; or (2) enable high volume, automated, electronic processes\r\nthat apply to VeriSign (or its computer systems). The compilation,\r\nrepackaging, dissemination or other use of this Data is expressly\r\nprohibited without the prior written consent of VeriSign. You agree not to\r\nuse electronic processes that are automated and high-volume to access or\r\nquery the Whois database except as reasonably necessary to register\r\ndomain names or modify existing registrations. VeriSign reserves the right\r\nto restrict your access to the Whois database in its sole discretion to ensure\r\noperational stability.  VeriSign may restrict or terminate your access to the\r\nWhois database for failure to abide by these terms of use. VeriSign\r\nreserves the right to modify these terms at any time.\r\n\r\nThe Registry database contains ONLY .COM, .NET, .EDU domains and\r\nRegistrars.\r\n\n\n\nDomain Name: google.com\nRegistry Domain ID: 2138514_DOMAIN_COM-VRSN\nRegistrar WHOIS Server: whois.markmonitor.com\nRegistrar URL: http://www.markmonitor.com\nUpdated Date: 2024-08-02T02:17:33+0000\nCreation Date: 1997-09-15T07:00:00+0000\nRegistrar Registration Expiration Date: 2028-09-13T07:00:00+0000\nRegistrar: MarkMonitor, Inc.\nRegistrar IANA ID: 292\nRegistrar Abuse Contact Email: abusecomplaints@markmonitor.com\nRegistrar Abuse Contact Phone: +1.2086851750\nDomain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)\nDomain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)\nDomain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)\nDomain Status: serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)\nDomain Status: serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)\nDomain Status: serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)\nRegistrant Organization: Google LLC\nRegistrant Country: US\nRegistrant Email: Select Request Email Form at https://domains.markmonitor.com/whois/google.com\nTech Email: Select Request Email Form at https://domains.markmonitor.com/whois/google.com\nName Server: ns3.google.com\nName Server: ns1.google.com\nName Server: ns2.google.com\nName Server: ns4.google.com\nDNSSEC: unsigned\nURL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\n>>> Last update of WHOIS database: 2025-08-01T21:43:22+0000 <<<\n\nFor more information on WHOIS status codes, please visit:\n  https://www.icann.org/resources/pages/epp-status-codes\n\nIf you wish to contact this domain\u2019s Registrant or Technical\ncontact, and such email address is not visible above, you may do so via our web\nform, pursuant to ICANN\u2019s Temporary Specification. To verify that you are not a\nrobot, please enter your email address to receive a link to a page that\nfacilitates email communication with the relevant contact(s).\n\nWeb-based WHOIS:\n  https://domains.markmonitor.com/whois/contact/google.com\n\nIf you have a legitimate interest in viewing the non-public WHOIS details, send\nyour request and the reasons for your request to whoisrequest@markmonitor.com\nand specify the domain name in the subject line. We will review that request and\nmay ask for supporting documentation and explanation.\n\nThe data in MarkMonitor\u2019s WHOIS database is provided for information purposes,\nand to assist persons in obtaining information about or related to a domain\nname\u2019s registration record. While MarkMonitor believes the data to be accurate,\nthe data is provided \"as is\" with no guarantee or warranties regarding its\naccuracy.\n\nBy submitting a WHOIS query, you agree that you will use this data only for\nlawful purposes and that, under no circumstances will you use this data to:\n  (1) allow, enable, or otherwise support the transmission by email, telephone,\nor facsimile of mass, unsolicited, commercial advertising, or spam; or\n  (2) enable high volume, automated, or electronic processes that send queries,\ndata, or email to MarkMonitor (or its systems) or the domain name contacts (or\nits systems).\n\nMarkMonitor reserves the right to modify these terms at any time.\n\nBy submitting this query, you agree to abide by this policy.\n\nMarkMonitor Domain Management(TM)\nProtecting companies and consumers in a digital world.\n\nVisit MarkMonitor at https://www.markmonitor.com\nContact us at +1.8007459229\nIn Europe, at +44.02032062220\n--"
+      },
+      "timestamp": "2025-08-02 00:48:15",
+      "status": "success"
+    },
+    "social_media": {
+      "data": {
+        "potential_profiles": {},
+        "search_performed": true
+      },
+      "timestamp": "2025-08-02 00:48:16",
+      "status": "success"
+    },
+    "github": {
+      "data": {
+        "repositories": [
+          {
+            "name": "SamuelVelez8383/codelabs-my-first-WebGPU-app",
+            "description": "Code for the codelabs introductory tutorial to WebGPU. https://codelabs.developers.google.com/your-first-webgpu-app#0",
+            "url": "https://github.com/SamuelVelez8383/codelabs-my-first-WebGPU-app",
+            "stars": 0,
+            "language": null,
+            "updated_at": "2025-08-01T21:45:28Z"
+          },
+          {
+            "name": "MissNanLankwtosh/nolanofrat",
+            "description": "Automatically exported from code.google.com/p/test-http-call-intent-service",
+            "url": "https://github.com/MissNanLankwtosh/nolanofrat",
+            "stars": 0,
+            "language": null,
+            "updated_at": "2025-08-01T21:37:52Z"
+          },
+          {
+            "name": "rodrigosf672/measure-loading-times",
+            "description": "Simulates 1\u20135 concurrent users with Playwright to measure and report average page load times for performance testing, using google.com page as example.",
+            "url": "https://github.com/rodrigosf672/measure-loading-times",
+            "stars": 0,
+            "language": "R",
+            "updated_at": "2025-08-01T21:09:45Z"
+          },
+          {
+            "name": "JohnAustinDev/xulsword",
+            "description": "Automatically exported from code.google.com/p/xulsword",
+            "url": "https://github.com/JohnAustinDev/xulsword",
+            "stars": 17,
+            "language": "TypeScript",
+            "updated_at": "2025-08-01T21:05:25Z"
+          },
+          {
+            "name": "keith-keyah/coding-assignment",
+            "description": "https://colab.research.google.com/drive/1lvebU2khl4BZ_Qr5m5Eu2dka5vlw1Seu",
+            "url": "https://github.com/keith-keyah/coding-assignment",
+            "stars": 0,
+            "language": "Jupyter Notebook",
+            "updated_at": "2025-08-01T20:46:07Z"
+          },
+          {
+            "name": "wevote/WebApp",
+            "description": "We Vote's javascript (client-side) mobile website built with React/Flux. Twitter: @WeVote Apple Store: https://itunes.apple.com/us/app/we-vote-voter-guide/id1347335726 Android: https://play.google.com/store/apps/details?id=org.wevote.cordova&hl=en_US",
+            "url": "https://github.com/wevote/WebApp",
+            "stars": 99,
+            "language": "JavaScript",
+            "updated_at": "2025-08-01T20:05:48Z"
+          },
+          {
+            "name": "AliBux874/Real-and-fake-news-detection-using-ML-and-NLP",
+            "description": "Here is code link https://colab.research.google.com/drive/1k5BW1TWilgjgtHieGQoMpYsOOWugooWD#scrollTo=p8RzhVY-fM7c",
+            "url": "https://github.com/AliBux874/Real-and-fake-news-detection-using-ML-and-NLP",
+            "stars": 0,
+            "language": null,
+            "updated_at": "2025-08-01T18:48:00Z"
+          },
+          {
+            "name": "dineshtecnology/Link",
+            "description": "Join me on this amazing app and get rewards! Use my referral link: https://play.google.com/store/apps/details?id=com.sps.earnpaisa&referrer=utm_source%3Dref%26utm_medium%3Dq36YCqh6yHNScbDGI9CjsiXDIC72%26anid%3Dadmob",
+            "url": "https://github.com/dineshtecnology/Link",
+            "stars": 0,
+            "language": null,
+            "updated_at": "2025-08-01T18:42:15Z"
+          },
+          {
+            "name": "Promosavvy/Hutti",
+            "description": "India\u2019s cashback & offers platform | 500+ brands | App: https://play.google.com/store/apps/details?id=com.shop.hutti | Site: https://hutti.in",
+            "url": "https://github.com/Promosavvy/Hutti",
+            "stars": 0,
+            "language": null,
+            "updated_at": "2025-08-01T17:37:31Z"
+          },
+          {
+            "name": "trevorwslee/MicroPython-DumbDisplay",
+            "description": "DumbDisplay MicroPython Library is a port of the Arduino DumbDisplay Library (https://github.com/trevorwslee/Arduino-DumbDisplay) for the DumbDisplay Android app -- https://play.google.com/store/apps/details?id=nobody.trevorlee.dumbdisplay",
+            "url": "https://github.com/trevorwslee/MicroPython-DumbDisplay",
+            "stars": 2,
+            "language": "Python",
+            "updated_at": "2025-08-01T16:02:51Z"
+          },
+          {
+            "name": "SamuelVelez8383/codelabs-my-first-WebGPU-app",
+            "description": "Code for the codelabs introductory tutorial to WebGPU. https://codelabs.developers.google.com/your-first-webgpu-app#0",
+            "url": "https://github.com/SamuelVelez8383/codelabs-my-first-WebGPU-app",
+            "stars": 0,
+            "language": null,
+            "updated_at": "2025-08-01T21:45:28Z"
+          },
+          {
+            "name": "Vuneco/leylix.com",
+            "description": "sitemap.xml- Daten f\u00fcr SEO f\u00fcr Google",
+            "url": "https://github.com/Vuneco/leylix.com",
+            "stars": 0,
+            "language": "HTML",
+            "updated_at": "2025-08-01T21:44:55Z"
+          },
+          {
+            "name": "datascapesg/help-our-hawkers",
+            "description": "GeoJSON export of the Google Maps overlay for Help Our Hawkers! - https://www.reddit.com/r/singapore/comments/nret1k/update_google_maps_layer_to_find_and_support_the/",
+            "url": "https://github.com/datascapesg/help-our-hawkers",
+            "stars": 5,
+            "language": "JavaScript",
+            "updated_at": "2025-08-01T21:38:29Z"
+          },
+          {
+            "name": "MissNanLankwtosh/nolanofrat",
+            "description": "Automatically exported from code.google.com/p/test-http-call-intent-service",
+            "url": "https://github.com/MissNanLankwtosh/nolanofrat",
+            "stars": 0,
+            "language": null,
+            "updated_at": "2025-08-01T21:37:52Z"
+          },
+          {
+            "name": "tiagoegidio-cmd/cnpj-mcp-sqlite-rag-server",
+            "description": "MCP Server com RAG para bancos SQLite no Google Drive - CNPJ",
+            "url": "https://github.com/tiagoegidio-cmd/cnpj-mcp-sqlite-rag-server",
+            "stars": 0,
+            "language": null,
+            "updated_at": "2025-08-01T21:33:27Z"
+          },
+          {
+            "name": "VictorMelkor/barbearia",
+            "description": "Site institucional de uma barbearia fict\u00edcia, desenvolvido com HTML5, CSS (Bootstrap e plugins), e JavaScript. Inclui p\u00e1gina de contato com formul\u00e1rio funcional e integra\u00e7\u00e3o com Google Maps. Projeto focado em boas pr\u00e1ticas de SEO, acessibilidade e responsividade.",
+            "url": "https://github.com/VictorMelkor/barbearia",
+            "stars": 2,
+            "language": "CSS",
+            "updated_at": "2025-08-01T21:32:41Z"
+          },
+          {
+            "name": "rodrigosf672/measure-loading-times",
+            "description": "Simulates 1\u20135 concurrent users with Playwright to measure and report average page load times for performance testing, using google.com page as example.",
+            "url": "https://github.com/rodrigosf672/measure-loading-times",
+            "stars": 0,
+            "language": "R",
+            "updated_at": "2025-08-01T21:09:45Z"
+          },
+          {
+            "name": "JohnAustinDev/xulsword",
+            "description": "Automatically exported from code.google.com/p/xulsword",
+            "url": "https://github.com/JohnAustinDev/xulsword",
+            "stars": 17,
+            "language": "TypeScript",
+            "updated_at": "2025-08-01T21:05:25Z"
+          },
+          {
+            "name": "Jeysson16/backend-comidas",
+            "description": "Backend especializado en detecci\u00f3n de alimentos usando Google Gemini 1.5 Flash que permite: - Detecci\u00f3n avanzada de alimentos con IA - An\u00e1lisis nutricional autom\u00e1tico - Alta precisi\u00f3n en reconocimiento - API optimizada solo para IA",
+            "url": "https://github.com/Jeysson16/backend-comidas",
+            "stars": 0,
+            "language": "Python",
+            "updated_at": "2025-08-01T21:00:28Z"
+          },
+          {
+            "name": "lulinucs/super9",
+            "description": "\ud83c\udf7a Sistema web para controle de bebidas e placar em tempo real em eventos de Bike Polo. Comandas digitais com QR Code, hist\u00f3rico de consumo, painel admin e placar interativo. Feito com HTML, JS e PHP, integrado ao Google Sheets.",
+            "url": "https://github.com/lulinucs/super9",
+            "stars": 0,
+            "language": "HTML",
+            "updated_at": "2025-08-01T20:59:22Z"
+          },
+          {
+            "name": "VictorMelkor/barbearia",
+            "description": "Site institucional de uma barbearia fict\u00edcia, desenvolvido com HTML5, CSS (Bootstrap e plugins), e JavaScript. Inclui p\u00e1gina de contato com formul\u00e1rio funcional e integra\u00e7\u00e3o com Google Maps. Projeto focado em boas pr\u00e1ticas de SEO, acessibilidade e responsividade.",
+            "url": "https://github.com/VictorMelkor/barbearia",
+            "stars": 2,
+            "language": "CSS",
+            "updated_at": "2025-08-01T21:32:41Z"
+          },
+          {
+            "name": "GabrielMuehlbauer/site-portifolio",
+            "description": "Este \u00e9 o meu site portif\u00f3lio! Todo o estilo e cores s\u00e3o originais. Inspirado no estilo Material Design do Google, este site tr\u00e1s um visual moderno e criativo, com cores suaves e harm\u00f4nicas, al\u00e9m de um conjunto de fontes de alta legibilidade. Todos os direitos reservados a Gabriel M\u00fcehlbauer.",
+            "url": "https://github.com/GabrielMuehlbauer/site-portifolio",
+            "stars": 0,
+            "language": "CSS",
+            "updated_at": "2025-08-01T17:50:36Z"
+          },
+          {
+            "name": "Promosavvy/Hutti",
+            "description": "India\u2019s cashback & offers platform | 500+ brands | App: https://play.google.com/store/apps/details?id=com.shop.hutti | Site: https://hutti.in",
+            "url": "https://github.com/Promosavvy/Hutti",
+            "stars": 0,
+            "language": null,
+            "updated_at": "2025-08-01T17:37:31Z"
+          },
+          {
+            "name": "ReadBooksOficial/backend",
+            "description": "Sistema de controle de livros lidos utilizando API do Google Books para obter capa e informa\u00e7\u00f5es, desenvolvido em laravel com usu\u00e1rios ativos: https://readbooks.site",
+            "url": "https://github.com/ReadBooksOficial/backend",
+            "stars": 0,
+            "language": "PHP",
+            "updated_at": "2025-07-31T23:22:18Z"
+          },
+          {
+            "name": "gabrielnsantana/porschegarage",
+            "description": "Criei um site dedicado aos apaixonados por Porsche! Com a ajuda do Google Gemini e dos conhecimentos adquiridos na imers\u00e3o da Alura, criei um guia completo sobre os modelos da marca, explorando caracter\u00edsticas, desempenho e benef\u00edcios. Veja tudo o que precisa saber sobre esses carros. Desenvolvido com HTML, CSS e JS, \u00e9 um projeto de f\u00e3 para f\u00e3s.",
+            "url": "https://github.com/gabrielnsantana/porschegarage",
+            "stars": 1,
+            "language": "CSS",
+            "updated_at": "2025-07-31T23:17:06Z"
+          },
+          {
+            "name": "CharlieBellow/sitepsi",
+            "description": "Site para divulga\u00e7\u00e3o do Psic\u00f3logo Charlie Bellow. Tem o objetivo de iniciar como uma landing Page para divulga\u00e7\u00e3o de servi\u00e7os e posteiriormente ser\u00e1 um blog com an\u00fancios do google Ads.",
+            "url": "https://github.com/CharlieBellow/sitepsi",
+            "stars": 1,
+            "language": "TypeScript",
+            "updated_at": "2025-07-31T17:46:20Z"
+          },
+          {
+            "name": "Alexyoe/Github-on-Google-Search",
+            "description": "A simple userscript that adds a button to your Google searches to only show results from Github.com. You can just click on the button and it will automatically add site:github.com to your search!",
+            "url": "https://github.com/Alexyoe/Github-on-Google-Search",
+            "stars": 3,
+            "language": "JavaScript",
+            "updated_at": "2025-07-30T15:01:14Z"
+          },
+          {
+            "name": "Alexyoe/Reddit-on-Google-Search",
+            "description": "A simple userscript that adds a button to your Google searches to only show results from reddit.com. You can just click on the button and it will automatically add site:reddit.com to your search!",
+            "url": "https://github.com/Alexyoe/Reddit-on-Google-Search",
+            "stars": 4,
+            "language": "JavaScript",
+            "updated_at": "2025-07-30T15:02:45Z"
+          },
+          {
+            "name": "jmsolano/denstoolkit",
+            "description": "DensToolKit is a suite of  programs for analyzing the molecular electron density (\u03c1) and several fields derived from it. DTK also includes programs to analyze the topology of \u03c1. More information can be found in https://sites.google.com/site/jmsolanoalt/home/software/denstoolkit.",
+            "url": "https://github.com/jmsolano/denstoolkit",
+            "stars": 16,
+            "language": "C++",
+            "updated_at": "2025-07-29T21:09:09Z"
+          },
+          {
+            "name": "Rafael-educacao/Alura_VsCode_2025",
+            "description": "No in\u00edcio a ideia era desenvolver um portf\u00f3lio, por\u00e9m eu decidi por fazer algo um pouco diferente, um site de venda de carros. Esse projeto n\u00e3o foi desenvolvido apenas com meus conhecimentos, grande parte dos c\u00f3digos de est\u00e9tica do site (CSS) foram pesquisados no Google e no ChatGPT.",
+            "url": "https://github.com/Rafael-educacao/Alura_VsCode_2025",
+            "stars": 0,
+            "language": "CSS",
+            "updated_at": "2025-07-29T16:29:46Z"
+          }
+        ],
+        "code_results": [],
+        "total_repositories": 602765,
+        "total_code_results": 0
+      },
+      "timestamp": "2025-08-02 00:48:18",
+      "status": "success"
+    },
+    "wayback_machine": {
+      "data": {},
+      "timestamp": "2025-08-02 00:48:29",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='web.archive.org', port=80): Read timed out. (read timeout=15)"
+    }
+  },
+  "summary": {
+    "collection_duration": 15.385584354400635,
+    "sources_attempted": 7,
+    "sources_successful": 4,
+    "sources_failed": 1,
+    "sources_skipped": 1
+  }
+}

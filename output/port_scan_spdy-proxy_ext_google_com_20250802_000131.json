@@ -1,0 +1,12 @@
+{
+  "target": "spdy-proxy.ext.google.com",
+  "scan_type": "port_scan",
+  "timestamp": "2025-08-02 00:01:31",
+  "open_ports": [],
+  "total_open": 0,
+  "total_scanned": 0,
+  "scan_settings": {
+    "threads": 50,
+    "timeout": 10
+  }
+}

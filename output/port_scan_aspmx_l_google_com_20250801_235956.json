@@ -1,0 +1,12 @@
+{
+  "target": "aspmx.l.google.com",
+  "scan_type": "port_scan",
+  "timestamp": "2025-08-01 23:59:56",
+  "open_ports": [],
+  "total_open": 0,
+  "total_scanned": 24,
+  "scan_settings": {
+    "threads": 50,
+    "timeout": 10
+  }
+}

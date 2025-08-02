@@ -1,0 +1,229 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Bug Bounty Scan Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            .header { background-color: #f4f4f4; padding: 10px; border-radius: 5px; }
+            .section { margin: 20px 0; }
+            .result { background-color: #f9f9f9; padding: 10px; margin: 5px 0; border-left: 3px solid #007cba; }
+            .error { border-left-color: #d32f2f; }
+            .success { border-left-color: #388e3c; }
+            table { border-collapse: collapse; width: 100%; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Bug Bounty Reconnaissance Report</h1>
+            <p>Generated on: 2025-08-01 23:19:06</p>
+        </div>
+        <div class="section">
+            <h2>Scan Results</h2>
+            <pre>{
+  "report_type": "combined_analysis",
+  "timestamp": "2025-08-01 23:19:06",
+  "scans_analyzed": 2,
+  "targets": [
+    "scanme.nmap.org",
+    "http://testphp.vulnweb.com"
+  ],
+  "port_scans": [
+    {
+      "scan_type": "port_scan_analysis",
+      "target": "scanme.nmap.org",
+      "timestamp": "2025-08-01 23:19:06",
+      "summary": {
+        "total_open_ports": 2,
+        "total_scanned": 24,
+        "scan_date": "2025-08-01 23:14:36"
+      },
+      "service_breakdown": {
+        "HTTP": 1,
+        "SSH": 1
+      },
+      "risk_assessment": {
+        "high_risk": {
+          "count": 0,
+          "ports": []
+        },
+        "medium_risk": {
+          "count": 1,
+          "ports": [
+            {
+              "port": 22,
+              "status": "open",
+              "service": "SSH",
+              "timestamp": "2025-08-01 23:14:33"
+            }
+          ]
+        },
+        "low_risk": {
+          "count": 1,
+          "ports": [
+            {
+              "port": 80,
+              "status": "open",
+              "service": "HTTP",
+              "timestamp": "2025-08-01 23:14:33"
+            }
+          ]
+        }
+      },
+      "recommendations": [
+        "Web services found on 1 ports - consider directory enumeration"
+      ]
+    }
+  ],
+  "directory_scans": [
+    {
+      "scan_type": "directory_scan_analysis",
+      "target": "http://testphp.vulnweb.com",
+      "timestamp": "2025-08-01 23:19:06",
+      "summary": {
+        "total_directories": 5,
+        "total_files": 14,
+        "total_found": 19,
+        "scan_date": "2025-08-01 23:15:02"
+      },
+      "status_code_breakdown": {
+        "200": 11,
+        "403": 4,
+        "301": 4
+      },
+      "interesting_findings": {
+        "admin_panels": [
+          {
+            "path": "admin/",
+            "url": "http://testphp.vulnweb.com/admin/",
+            "status_code": 200,
+            "content_length": 262,
+            "content_type": "text/html",
+            "timestamp": "2025-08-01 23:14:44",
+            "type": "directory"
+          },
+          {
+            "path": "admin",
+            "url": "http://testphp.vulnweb.com/admin",
+            "status_code": 301,
+            "content_length": 169,
+            "content_type": "text/html",
+            "timestamp": "2025-08-01 23:14:44",
+            "type": "file"
+          },
+          {
+            "path": "login.php",
+            "url": "http://testphp.vulnweb.com/login.php",
+            "status_code": 200,
+            "content_length": 5523,
+            "content_type": "text/html; charset=UTF-8",
+            "timestamp": "2025-08-01 23:14:46",
+            "type": "file"
+          }
+        ],
+        "config_files": [],
+        "backup_files": [],
+        "sensitive_files": [],
+        "forbidden_access": [
+          {
+            "path": "cgi-bin/",
+            "url": "http://testphp.vulnweb.com/cgi-bin/",
+            "status_code": 403,
+            "content_length": 276,
+            "content_type": "text/html; charset=iso-8859-1",
+            "timestamp": "2025-08-01 23:14:56",
+            "type": "directory"
+          },
+          {
+            "path": "cgi-bin",
+            "url": "http://testphp.vulnweb.com/cgi-bin",
+            "status_code": 403,
+            "content_length": 276,
+            "content_type": "text/html; charset=iso-8859-1",
+            "timestamp": "2025-08-01 23:14:56",
+            "type": "file"
+          },
+          {
+            "path": "cgi-bin.htm",
+            "url": "http://testphp.vulnweb.com/cgi-bin.htm",
+            "status_code": 403,
+            "content_length": 276,
+            "content_type": "text/html; charset=iso-8859-1",
+            "timestamp": "2025-08-01 23:14:56",
+            "type": "file"
+          },
+          {
+            "path": "cgi-bin.html",
+            "url": "http://testphp.vulnweb.com/cgi-bin.html",
+            "status_code": 403,
+            "content_length": 276,
+            "content_type": "text/html; charset=iso-8859-1",
+            "timestamp": "2025-08-01 23:14:56",
+            "type": "file"
+          }
+        ],
+        "redirects": [
+          {
+            "path": "admin",
+            "url": "http://testphp.vulnweb.com/admin",
+            "status_code": 301,
+            "content_length": 169,
+            "content_type": "text/html",
+            "timestamp": "2025-08-01 23:14:44",
+            "type": "file"
+          },
+          {
+            "path": "images",
+            "url": "http://testphp.vulnweb.com/images",
+            "status_code": 301,
+            "content_length": 169,
+            "content_type": "text/html",
+            "timestamp": "2025-08-01 23:14:53",
+            "type": "file"
+          },
+          {
+            "path": ".idea",
+            "url": "http://testphp.vulnweb.com/.idea",
+            "status_code": 301,
+            "content_length": 169,
+            "content_type": "text/html",
+            "timestamp": "2025-08-01 23:15:00",
+            "type": "file"
+          },
+          {
+            "path": "vendor",
+            "url": "http://testphp.vulnweb.com/vendor",
+            "status_code": 301,
+            "content_length": 169,
+            "content_type": "text/html",
+            "timestamp": "2025-08-01 23:15:01",
+            "type": "file"
+          }
+        ]
+      },
+      "file_extensions": {
+        "php": 4,
+        "xml": 2,
+        "css": 1,
+        "htm": 1,
+        "html": 1,
+        "idea": 1
+      },
+      "recommendations": [
+        "Found 3 potential admin panels - investigate for weak credentials",
+        "Found 4 forbidden directories - may indicate hidden content",
+        "Many accessible directories found - consider deeper enumeration"
+      ]
+    }
+  ],
+  "overall_recommendations": [
+    "Both port and directory scans completed - correlate findings for comprehensive assessment",
+    "Multiple targets analyzed (2) - look for common vulnerabilities"
+  ]
+}</pre>
+        </div>
+    </body>
+    </html>
+    

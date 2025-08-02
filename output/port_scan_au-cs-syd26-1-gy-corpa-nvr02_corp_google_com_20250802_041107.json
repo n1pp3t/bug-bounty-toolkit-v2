@@ -1,0 +1,12 @@
+{
+  "target": "au-cs-syd26-1-gy-corpa-nvr02.corp.google.com",
+  "scan_type": "port_scan",
+  "timestamp": "2025-08-02 04:11:07",
+  "open_ports": [],
+  "total_open": 0,
+  "total_scanned": 0,
+  "scan_settings": {
+    "threads": 100,
+    "timeout": 10
+  }
+}

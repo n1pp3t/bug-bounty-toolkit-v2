@@ -1,0 +1,43 @@
+{
+  "target": "http://services.google.com",
+  "scan_type": "directory_enumeration",
+  "timestamp": "2025-08-02 00:31:27",
+  "directories": [
+    {
+      "path": "api/",
+      "url": "http://services.google.com/api/",
+      "status_code": 301,
+      "content_length": 220,
+      "content_type": "text/html; charset=UTF-8",
+      "timestamp": "2025-08-02 00:31:26",
+      "type": "directory"
+    }
+  ],
+  "files": [
+    {
+      "path": "api",
+      "url": "http://services.google.com/api",
+      "status_code": 301,
+      "content_length": 220,
+      "content_type": "text/html; charset=UTF-8",
+      "timestamp": "2025-08-02 00:31:26",
+      "type": "file"
+    },
+    {
+      "path": "robots.txt",
+      "url": "http://services.google.com/robots.txt",
+      "status_code": 200,
+      "content_length": 390,
+      "content_type": "text/plain",
+      "timestamp": "2025-08-02 00:31:26",
+      "type": "file"
+    }
+  ],
+  "total_directories": 1,
+  "total_files": 2,
+  "total_found": 3,
+  "scan_settings": {
+    "threads": 50,
+    "timeout": 10
+  }
+}

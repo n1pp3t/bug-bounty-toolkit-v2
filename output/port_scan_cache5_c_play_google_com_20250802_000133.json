@@ -1,0 +1,12 @@
+{
+  "target": "cache5.c.play.google.com",
+  "scan_type": "port_scan",
+  "timestamp": "2025-08-02 00:01:33",
+  "open_ports": [],
+  "total_open": 0,
+  "total_scanned": 0,
+  "scan_settings": {
+    "threads": 50,
+    "timeout": 10
+  }
+}

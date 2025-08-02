@@ -1,0 +1,187 @@
+{
+  "target": "http://testphp.vulnweb.com",
+  "scan_type": "directory_enumeration",
+  "timestamp": "2025-08-01 23:15:02",
+  "directories": [
+    {
+      "path": "admin/",
+      "url": "http://testphp.vulnweb.com/admin/",
+      "status_code": 200,
+      "content_length": 262,
+      "content_type": "text/html",
+      "timestamp": "2025-08-01 23:14:44",
+      "type": "directory"
+    },
+    {
+      "path": "images/",
+      "url": "http://testphp.vulnweb.com/images/",
+      "status_code": 200,
+      "content_length": 377,
+      "content_type": "text/html",
+      "timestamp": "2025-08-01 23:14:53",
+      "type": "directory"
+    },
+    {
+      "path": "cgi-bin/",
+      "url": "http://testphp.vulnweb.com/cgi-bin/",
+      "status_code": 403,
+      "content_length": 276,
+      "content_type": "text/html; charset=iso-8859-1",
+      "timestamp": "2025-08-01 23:14:56",
+      "type": "directory"
+    },
+    {
+      "path": ".idea/",
+      "url": "http://testphp.vulnweb.com/.idea/",
+      "status_code": 200,
+      "content_length": 951,
+      "content_type": "text/html",
+      "timestamp": "2025-08-01 23:15:00",
+      "type": "directory"
+    },
+    {
+      "path": "vendor/",
+      "url": "http://testphp.vulnweb.com/vendor/",
+      "status_code": 200,
+      "content_length": 268,
+      "content_type": "text/html",
+      "timestamp": "2025-08-01 23:15:01",
+      "type": "directory"
+    }
+  ],
+  "files": [
+    {
+      "path": "admin",
+      "url": "http://testphp.vulnweb.com/admin",
+      "status_code": 301,
+      "content_length": 169,
+      "content_type": "text/html",
+      "timestamp": "2025-08-01 23:14:44",
+      "type": "file"
+    },
+    {
+      "path": "login.php",
+      "url": "http://testphp.vulnweb.com/login.php",
+      "status_code": 200,
+      "content_length": 5523,
+      "content_type": "text/html; charset=UTF-8",
+      "timestamp": "2025-08-01 23:14:46",
+      "type": "file"
+    },
+    {
+      "path": "crossdomain.xml",
+      "url": "http://testphp.vulnweb.com/crossdomain.xml",
+      "status_code": 200,
+      "content_length": 224,
+      "content_type": "text/xml",
+      "timestamp": "2025-08-01 23:14:48",
+      "type": "file"
+    },
+    {
+      "path": "clientaccesspolicy.xml",
+      "url": "http://testphp.vulnweb.com/clientaccesspolicy.xml",
+      "status_code": 200,
+      "content_length": 307,
+      "content_type": "text/xml",
+      "timestamp": "2025-08-01 23:14:49",
+      "type": "file"
+    },
+    {
+      "path": "images",
+      "url": "http://testphp.vulnweb.com/images",
+      "status_code": 301,
+      "content_length": 169,
+      "content_type": "text/html",
+      "timestamp": "2025-08-01 23:14:53",
+      "type": "file"
+    },
+    {
+      "path": "style.css",
+      "url": "http://testphp.vulnweb.com/style.css",
+      "status_code": 200,
+      "content_length": 5482,
+      "content_type": "text/css",
+      "timestamp": "2025-08-01 23:14:54",
+      "type": "file"
+    },
+    {
+      "path": "cart.php",
+      "url": "http://testphp.vulnweb.com/cart.php",
+      "status_code": 200,
+      "content_length": 4903,
+      "content_type": "text/html; charset=UTF-8",
+      "timestamp": "2025-08-01 23:14:55",
+      "type": "file"
+    },
+    {
+      "path": "cgi-bin",
+      "url": "http://testphp.vulnweb.com/cgi-bin",
+      "status_code": 403,
+      "content_length": 276,
+      "content_type": "text/html; charset=iso-8859-1",
+      "timestamp": "2025-08-01 23:14:56",
+      "type": "file"
+    },
+    {
+      "path": "cgi-bin.htm",
+      "url": "http://testphp.vulnweb.com/cgi-bin.htm",
+      "status_code": 403,
+      "content_length": 276,
+      "content_type": "text/html; charset=iso-8859-1",
+      "timestamp": "2025-08-01 23:14:56",
+      "type": "file"
+    },
+    {
+      "path": "cgi-bin.html",
+      "url": "http://testphp.vulnweb.com/cgi-bin.html",
+      "status_code": 403,
+      "content_length": 276,
+      "content_type": "text/html; charset=iso-8859-1",
+      "timestamp": "2025-08-01 23:14:56",
+      "type": "file"
+    },
+    {
+      "path": "index.php",
+      "url": "http://testphp.vulnweb.com/index.php",
+      "status_code": 200,
+      "content_length": 4958,
+      "content_type": "text/html; charset=UTF-8",
+      "timestamp": "2025-08-01 23:14:57",
+      "type": "file"
+    },
+    {
+      "path": "404.php",
+      "url": "http://testphp.vulnweb.com/404.php",
+      "status_code": 200,
+      "content_length": 5265,
+      "content_type": "text/html; charset=UTF-8",
+      "timestamp": "2025-08-01 23:14:58",
+      "type": "file"
+    },
+    {
+      "path": ".idea",
+      "url": "http://testphp.vulnweb.com/.idea",
+      "status_code": 301,
+      "content_length": 169,
+      "content_type": "text/html",
+      "timestamp": "2025-08-01 23:15:00",
+      "type": "file"
+    },
+    {
+      "path": "vendor",
+      "url": "http://testphp.vulnweb.com/vendor",
+      "status_code": 301,
+      "content_length": 169,
+      "content_type": "text/html",
+      "timestamp": "2025-08-01 23:15:01",
+      "type": "file"
+    }
+  ],
+  "total_directories": 5,
+  "total_files": 14,
+  "total_found": 19,
+  "scan_settings": {
+    "threads": 30,
+    "timeout": 5
+  }
+}

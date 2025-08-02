@@ -1,0 +1,106 @@
+{
+  "target": "script.sandbox.google.com",
+  "scan_type": "nmap_service_scan",
+  "timestamp": "2025-08-02 00:20:02",
+  "nmap_version": "7.95",
+  "scan_args": "/usr/lib/nmap/nmap --privileged -sV -T4 --open -oX /tmp/tmpv2mlizcu.xml script.sandbox.google.com",
+  "hosts": [
+    {
+      "addresses": [
+        {
+          "addr": "108.177.14.81",
+          "addrtype": "ipv4",
+          "vendor": ""
+        }
+      ],
+      "hostnames": [
+        {
+          "name": "script.sandbox.google.com",
+          "type": "user"
+        },
+        {
+          "name": "lt-in-f81.1e100.net",
+          "type": "PTR"
+        }
+      ],
+      "status": {
+        "state": "up",
+        "reason": "echo-reply",
+        "reason_ttl": "108"
+      },
+      "ports": [
+        {
+          "portid": 80,
+          "protocol": "tcp",
+          "state": {
+            "state": "open",
+            "reason": "syn-ack",
+            "reason_ttl": "122"
+          },
+          "service": {
+            "name": "http",
+            "product": "gws",
+            "version": "",
+            "extrainfo": "",
+            "ostype": "",
+            "method": "probed",
+            "conf": "10"
+          },
+          "scripts": []
+        },
+        {
+          "portid": 443,
+          "protocol": "tcp",
+          "state": {
+            "state": "open",
+            "reason": "syn-ack",
+            "reason_ttl": "122"
+          },
+          "service": {
+            "name": "https",
+            "product": "gws",
+            "version": "",
+            "extrainfo": "",
+            "ostype": "",
+            "method": "probed",
+            "conf": "10"
+          },
+          "scripts": []
+        },
+        {
+          "portid": 2022,
+          "protocol": "tcp",
+          "state": {
+            "state": "open",
+            "reason": "syn-ack",
+            "reason_ttl": "122"
+          },
+          "service": {
+            "name": "ssh",
+            "product": "Golang x/crypto/ssh server",
+            "version": "",
+            "extrainfo": "protocol 2.0",
+            "ostype": "",
+            "method": "probed",
+            "conf": "10"
+          },
+          "scripts": []
+        }
+      ],
+      "os": {},
+      "scripts": []
+    }
+  ],
+  "summary": {
+    "total_hosts": 1,
+    "hosts_up": 1,
+    "hosts_down": 0,
+    "total_open_ports": 3,
+    "unique_services": [
+      "http",
+      "https",
+      "ssh"
+    ],
+    "os_matches": []
+  }
+}

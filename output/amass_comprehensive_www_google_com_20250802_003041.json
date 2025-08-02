@@ -1,0 +1,12 @@
+{
+  "domain": "www.google.com",
+  "scan_type": "amass_comprehensive",
+  "timestamp": "2025-08-02 00:30:41",
+  "scans": {},
+  "summary": {
+    "total_unique_subdomains": 0,
+    "unique_subdomains": [],
+    "sources_used": [],
+    "scans_completed": 0
+  }
+}

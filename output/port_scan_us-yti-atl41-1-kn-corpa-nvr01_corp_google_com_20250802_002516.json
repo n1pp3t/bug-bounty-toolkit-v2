@@ -1,0 +1,12 @@
+{
+  "target": "us-yti-atl41-1-kn-corpa-nvr01.corp.google.com",
+  "scan_type": "port_scan",
+  "timestamp": "2025-08-02 00:25:16",
+  "open_ports": [],
+  "total_open": 0,
+  "total_scanned": 0,
+  "scan_settings": {
+    "threads": 50,
+    "timeout": 10
+  }
+}

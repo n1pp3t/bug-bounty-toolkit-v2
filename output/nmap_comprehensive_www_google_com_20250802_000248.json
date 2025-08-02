@@ -1,0 +1,314 @@
+{
+  "target": "www.google.com",
+  "scan_type": "nmap_comprehensive",
+  "timestamp": "2025-08-01 23:56:13",
+  "scans": {
+    "quick_scan": {
+      "target": "www.google.com",
+      "scan_type": "nmap_quick_scan",
+      "timestamp": "2025-08-01 23:56:18",
+      "nmap_version": "7.95",
+      "scan_args": "/usr/lib/nmap/nmap --privileged -sS -T4 --open -oX /tmp/tmpgrom08m5.xml www.google.com",
+      "hosts": [
+        {
+          "addresses": [
+            {
+              "addr": "216.58.209.196",
+              "addrtype": "ipv4",
+              "vendor": ""
+            }
+          ],
+          "hostnames": [
+            {
+              "name": "www.google.com",
+              "type": "user"
+            },
+            {
+              "name": "hem09s03-in-f4.1e100.net",
+              "type": "PTR"
+            }
+          ],
+          "status": {
+            "state": "up",
+            "reason": "echo-reply",
+            "reason_ttl": "118"
+          },
+          "ports": [
+            {
+              "portid": 80,
+              "protocol": "tcp",
+              "state": {
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "122"
+              },
+              "service": {
+                "name": "http",
+                "product": "",
+                "version": "",
+                "extrainfo": "",
+                "ostype": "",
+                "method": "table",
+                "conf": "3"
+              },
+              "scripts": []
+            },
+            {
+              "portid": 443,
+              "protocol": "tcp",
+              "state": {
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "122"
+              },
+              "service": {
+                "name": "https",
+                "product": "",
+                "version": "",
+                "extrainfo": "",
+                "ostype": "",
+                "method": "table",
+                "conf": "3"
+              },
+              "scripts": []
+            }
+          ],
+          "os": {},
+          "scripts": []
+        }
+      ],
+      "summary": {
+        "total_hosts": 1,
+        "hosts_up": 1,
+        "hosts_down": 0,
+        "total_open_ports": 2,
+        "unique_services": [
+          "https",
+          "http"
+        ],
+        "os_matches": []
+      }
+    },
+    "service_scan": {
+      "target": "www.google.com",
+      "scan_type": "nmap_service_scan",
+      "timestamp": "2025-08-01 23:57:38",
+      "nmap_version": "7.95",
+      "scan_args": "/usr/lib/nmap/nmap --privileged -sV -T4 --open -oX /tmp/tmpgzjwf2w_.xml www.google.com",
+      "hosts": [
+        {
+          "addresses": [
+            {
+              "addr": "216.58.211.228",
+              "addrtype": "ipv4",
+              "vendor": ""
+            }
+          ],
+          "hostnames": [
+            {
+              "name": "www.google.com",
+              "type": "user"
+            },
+            {
+              "name": "mad01s24-in-f228.1e100.net",
+              "type": "PTR"
+            }
+          ],
+          "status": {
+            "state": "up",
+            "reason": "echo-reply",
+            "reason_ttl": "118"
+          },
+          "ports": [
+            {
+              "portid": 80,
+              "protocol": "tcp",
+              "state": {
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "122"
+              },
+              "service": {
+                "name": "http",
+                "product": "gws",
+                "version": "",
+                "extrainfo": "",
+                "ostype": "",
+                "method": "probed",
+                "conf": "10"
+              },
+              "scripts": []
+            },
+            {
+              "portid": 443,
+              "protocol": "tcp",
+              "state": {
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "122"
+              },
+              "service": {
+                "name": "https",
+                "product": "gws",
+                "version": "",
+                "extrainfo": "",
+                "ostype": "",
+                "method": "probed",
+                "conf": "10"
+              },
+              "scripts": []
+            }
+          ],
+          "os": {},
+          "scripts": []
+        }
+      ],
+      "summary": {
+        "total_hosts": 1,
+        "hosts_up": 1,
+        "hosts_down": 0,
+        "total_open_ports": 2,
+        "unique_services": [
+          "https",
+          "http"
+        ],
+        "os_matches": []
+      }
+    },
+    "os_scan": {
+      "target": "www.google.com",
+      "scan_type": "nmap_os_scan",
+      "timestamp": "2025-08-01 23:57:48",
+      "nmap_version": "7.95",
+      "scan_args": "/usr/lib/nmap/nmap --privileged -O -T4 --open -oX /tmp/tmpqsx045vz.xml www.google.com",
+      "hosts": [
+        {
+          "addresses": [
+            {
+              "addr": "216.58.210.164",
+              "addrtype": "ipv4",
+              "vendor": ""
+            }
+          ],
+          "hostnames": [
+            {
+              "name": "www.google.com",
+              "type": "user"
+            },
+            {
+              "name": "hem08s07-in-f4.1e100.net",
+              "type": "PTR"
+            }
+          ],
+          "status": {
+            "state": "up",
+            "reason": "echo-reply",
+            "reason_ttl": "117"
+          },
+          "ports": [
+            {
+              "portid": 80,
+              "protocol": "tcp",
+              "state": {
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "122"
+              },
+              "service": {
+                "name": "http",
+                "product": "",
+                "version": "",
+                "extrainfo": "",
+                "ostype": "",
+                "method": "table",
+                "conf": "3"
+              },
+              "scripts": []
+            },
+            {
+              "portid": 443,
+              "protocol": "tcp",
+              "state": {
+                "state": "open",
+                "reason": "syn-ack",
+                "reason_ttl": "122"
+              },
+              "service": {
+                "name": "https",
+                "product": "",
+                "version": "",
+                "extrainfo": "",
+                "ostype": "",
+                "method": "table",
+                "conf": "3"
+              },
+              "scripts": []
+            }
+          ],
+          "os": {
+            "portused": [
+              {
+                "state": "open",
+                "proto": "tcp",
+                "portid": "80"
+              }
+            ],
+            "osmatch": [
+              {
+                "name": "Apple macOS 11 (Big Sur) (Darwin 20.6.0)",
+                "accuracy": "85",
+                "line": "7839",
+                "osclass": [
+                  {
+                    "type": "general purpose",
+                    "vendor": "Apple",
+                    "osfamily": "macOS",
+                    "osgen": "11.X",
+                    "accuracy": "85"
+                  }
+                ]
+              },
+              {
+                "name": "Apple macOS 12 (Monterey) - 13 (Ventura) (Darwin 21.2.0 - 22.0.0)",
+                "accuracy": "85",
+                "line": "8096",
+                "osclass": [
+                  {
+                    "type": "general purpose",
+                    "vendor": "Apple",
+                    "osfamily": "macOS",
+                    "osgen": "12.X",
+                    "accuracy": "85"
+                  },
+                  {
+                    "type": "general purpose",
+                    "vendor": "Apple",
+                    "osfamily": "macOS",
+                    "osgen": "13.X",
+                    "accuracy": "85"
+                  }
+                ]
+              }
+            ],
+            "osfingerprint": []
+          },
+          "scripts": []
+        }
+      ],
+      "summary": {
+        "total_hosts": 1,
+        "hosts_up": 1,
+        "hosts_down": 0,
+        "total_open_ports": 2,
+        "unique_services": [
+          "https",
+          "http"
+        ],
+        "os_matches": [
+          "Apple macOS 11 (Big Sur) (Darwin 20.6.0)",
+          "Apple macOS 12 (Monterey) - 13 (Ventura) (Darwin 21.2.0 - 22.0.0)"
+        ]
+      }
+    }
+  }
+}

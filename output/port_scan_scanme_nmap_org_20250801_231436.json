@@ -1,0 +1,25 @@
+{
+  "target": "scanme.nmap.org",
+  "scan_type": "port_scan",
+  "timestamp": "2025-08-01 23:14:36",
+  "open_ports": [
+    {
+      "port": 80,
+      "status": "open",
+      "service": "HTTP",
+      "timestamp": "2025-08-01 23:14:33"
+    },
+    {
+      "port": 22,
+      "status": "open",
+      "service": "SSH",
+      "timestamp": "2025-08-01 23:14:33"
+    }
+  ],
+  "total_open": 2,
+  "total_scanned": 24,
+  "scan_settings": {
+    "threads": 50,
+    "timeout": 3
+  }
+}

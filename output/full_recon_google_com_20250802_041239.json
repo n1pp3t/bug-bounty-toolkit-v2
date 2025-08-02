@@ -1,0 +1,1376 @@
+{
+  "target": "google.com",
+  "scan_type": "full_reconnaissance",
+  "timestamp": "2025-08-02 04:10:57",
+  "pipeline_results": {
+    "subdomain_enumeration": {
+      "domain": "google.com",
+      "scan_type": "subdomain_enumeration",
+      "timestamp": "2025-08-02 04:10:57",
+      "methods": {
+        "dns_bruteforce": [
+          {
+            "subdomain": "ns2.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.239.34.10"
+            ],
+            "timestamp": "2025-08-02 04:10:57"
+          },
+          {
+            "subdomain": "mail.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.209.197"
+            ],
+            "timestamp": "2025-08-02 04:10:57"
+          },
+          {
+            "subdomain": "ns1.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.239.32.10"
+            ],
+            "timestamp": "2025-08-02 04:10:57"
+          },
+          {
+            "subdomain": "www.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.209.196"
+            ],
+            "timestamp": "2025-08-02 04:10:57"
+          },
+          {
+            "subdomain": "smtp.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "209.85.233.27",
+              "74.125.131.26",
+              "74.125.131.27",
+              "142.250.150.27",
+              "142.250.150.26"
+            ],
+            "timestamp": "2025-08-02 04:10:57"
+          },
+          {
+            "subdomain": "ns3.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.239.36.10"
+            ],
+            "timestamp": "2025-08-02 04:10:57"
+          },
+          {
+            "subdomain": "news.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.210.174"
+            ],
+            "timestamp": "2025-08-02 04:10:57"
+          },
+          {
+            "subdomain": "ns4.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.239.38.10"
+            ],
+            "timestamp": "2025-08-02 04:10:57"
+          },
+          {
+            "subdomain": "admin.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.211.238"
+            ],
+            "timestamp": "2025-08-02 04:10:57"
+          },
+          {
+            "subdomain": "m.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.211.235"
+            ],
+            "timestamp": "2025-08-02 04:10:57"
+          },
+          {
+            "subdomain": "blog.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.211.233"
+            ],
+            "timestamp": "2025-08-02 04:10:57"
+          },
+          {
+            "subdomain": "vpn.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "64.9.224.70",
+              "64.9.224.69",
+              "64.9.224.68"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "ns.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.239.32.10"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "email.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.211.238"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "webmaster.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.210.142"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "api.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.210.164"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "wap.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.211.238"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "web.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.209.174"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "help.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.209.174"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "support.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.210.142"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "www4.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.211.238"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "docs.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.211.238"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "upload.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.209.207"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "video.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.209.206"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "www9.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.211.238"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "images.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.211.238"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "vpn.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "64.9.224.70",
+              "64.9.224.69",
+              "64.9.224.68"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "code.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.209.206"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "search.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.209.174"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "archive.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.209.206"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "sandbox.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "108.177.14.81"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "research.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.210.142"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "account.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.209.174"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "accounts.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "209.85.233.84"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "profile.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.210.142"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "profiles.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "A",
+            "ips": [
+              "216.58.210.174"
+            ],
+            "timestamp": "2025-08-02 04:10:58"
+          },
+          {
+            "subdomain": "www6.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "CNAME",
+            "cnames": [
+              "gfe.core.l.google.com."
+            ],
+            "timestamp": "2025-08-02 04:11:02"
+          },
+          {
+            "subdomain": "www5.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "CNAME",
+            "cnames": [
+              "www5.l.google.com."
+            ],
+            "timestamp": "2025-08-02 04:11:02"
+          },
+          {
+            "subdomain": "www10.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "CNAME",
+            "cnames": [
+              "webdrive-client.l.google.com."
+            ],
+            "timestamp": "2025-08-02 04:11:02"
+          },
+          {
+            "subdomain": "download.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "CNAME",
+            "cnames": [
+              "www2.l.google.com."
+            ],
+            "timestamp": "2025-08-02 04:11:02"
+          },
+          {
+            "subdomain": "music.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "CNAME",
+            "cnames": [
+              "www3.l.google.com."
+            ],
+            "timestamp": "2025-08-02 04:11:02"
+          },
+          {
+            "subdomain": "files.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "CNAME",
+            "cnames": [
+              "www3.l.google.com."
+            ],
+            "timestamp": "2025-08-02 04:11:02"
+          },
+          {
+            "subdomain": "mobile.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "CNAME",
+            "cnames": [
+              "mobile.l.google.com."
+            ],
+            "timestamp": "2025-08-02 04:11:02"
+          },
+          {
+            "subdomain": "doc.google.com",
+            "method": "dns_bruteforce",
+            "record_type": "CNAME",
+            "cnames": [
+              "writely.l.google.com."
+            ],
+            "timestamp": "2025-08-02 04:11:02"
+          }
+        ],
+        "certificate_transparency": [
+          {
+            "subdomain": "radius-machineauth-anycast.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "il-cs-tlv14-1-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "vincuna.bld.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "workshare9-uat.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "br-cs-gru23-1-xx-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "gb-cs-lhr61-2-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "uk-edg-lhr48-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "ca-cs-yul09-1-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "jp-cs-nrt41-3-xx-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "jp-edg-nrt20-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "ch-yti-zrh40-0-dp-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "au-yti-syd41-2-gz-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "br-cs-gru23-1-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "au-cs-syd26-1-gy-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "au-yti-syd41-2-gz-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "au-cs-syd26-1-gy-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "ca-cs-yul09-1-xx-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "ma-edg-kul08-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "ch-yti-zrh40-0-dp-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "gb-cs-lhr61-2-xx-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "jp-edg-nrt12-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "de-cs-fra50-1-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "jp-cs-nrt41-3-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "de-cs-fra50-1-xx-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "nl-cs-grq23-1-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "ma-edg-kul09-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "nl-cs-grq23-1-xx-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "sg-cs-sin30-3-xx-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "sg-cs-sin30-3-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "sg-edg-sin10-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "tw-edg-tsa01-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "es-edg-mad07-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "sg-edg-sin11-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-cgn-sfo09-1-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "tw-edg-tsa03-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-cgn-sfo09-1-xx-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-cs-iad39-1-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-chs-chs31-1-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-edg-atl14-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-edg-sea30-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-edg-sfo03-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-yti-atl41-1-kn-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "uk-edg-lhr25-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-cs-lax65-1-xx-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-edg-dfw28-4-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-cs-lax65-1-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "br-edg-rio09-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-cs-dfw36-5-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "mx-edg-qro02-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "br-edg-rio07-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-yti-atl41-1-kn-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-edg-lga25-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-edg-ord38-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-edg-ord37-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-cs-lax61-29-xx-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-edg-lax31-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-edg-slc09-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-gve-dfw37-1-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-gve-dfw37-1-xx-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "il-cs-tlv14-1-xx-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-cs-iad67-2-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-cs-hio03-1-xx-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-cs-hio03-1-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "de-cs-fra56-1-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-cs-cbf65-1-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "de-cs-fra56-1-xx-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "br-edg-gru06-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-cs-iad69-1-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-edg-las15-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "gb-cs-lhr65-1-xx-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-edg-nuq04-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-edg-lga34-2-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "gb-cs-lhr65-1-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "cl-cs-scl37-1-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-edg-mia09-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-edg-las14-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "ca-cs-yyz18-1-xx-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "ca-edg-yyz12-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "ca-edg-yyz10-4-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-cs-cbf65-1-xx-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-cs-iad67-2-xx-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "cl-cs-scl37-1-xx-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-cs-iad69-1-xx-corpa-nvr02.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "ca-cs-yyz18-1-xx-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "kr-edg-icn01-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "hk-edg-hkg07-3-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "hk-edg-hkg12-12-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "kr-edg-icn02-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us-edg-alt26-1-ac-corpa-nvr01.corp.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "aistudio.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "console.uk.cloud.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "uk.cloud.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "console.us.cloud.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "us.cloud.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "android.clients.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "appengine.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "cloud.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "crowdsource.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "datacompute.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "url.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "console.in.cloud.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "in.cloud.google.com",
+            "method": "certificate_transparency",
+            "source": "certspotter",
+            "issuer": "",
+            "timestamp": "2025-08-02 04:11:05"
+          }
+        ],
+        "search_engines": [
+          {
+            "subdomain": "www.google.com",
+            "method": "search_engines",
+            "source": "http_check",
+            "status_code": 200,
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "mail.google.com",
+            "method": "search_engines",
+            "source": "http_check",
+            "status_code": 301,
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "admin.google.com",
+            "method": "search_engines",
+            "source": "http_check",
+            "status_code": 204,
+            "timestamp": "2025-08-02 04:11:05"
+          },
+          {
+            "subdomain": "blog.google.com",
+            "method": "search_engines",
+            "source": "http_check",
+            "status_code": 301,
+            "timestamp": "2025-08-02 04:11:06"
+          },
+          {
+            "subdomain": "shop.google.com",
+            "method": "search_engines",
+            "source": "http_check",
+            "status_code": 301,
+            "timestamp": "2025-08-02 04:11:06"
+          },
+          {
+            "subdomain": "support.google.com",
+            "method": "search_engines",
+            "source": "http_check",
+            "status_code": 301,
+            "timestamp": "2025-08-02 04:11:06"
+          },
+          {
+            "subdomain": "help.google.com",
+            "method": "search_engines",
+            "source": "http_check",
+            "status_code": 301,
+            "timestamp": "2025-08-02 04:11:06"
+          },
+          {
+            "subdomain": "docs.google.com",
+            "method": "search_engines",
+            "source": "http_check",
+            "status_code": 301,
+            "timestamp": "2025-08-02 04:11:06"
+          },
+          {
+            "subdomain": "images.google.com",
+            "method": "search_engines",
+            "source": "http_check",
+            "status_code": 200,
+            "timestamp": "2025-08-02 04:11:06"
+          },
+          {
+            "subdomain": "files.google.com",
+            "method": "search_engines",
+            "source": "http_check",
+            "status_code": 302,
+            "timestamp": "2025-08-02 04:11:06"
+          }
+        ],
+        "dns_zone_transfer": [],
+        "reverse_dns": []
+      },
+      "summary": {
+        "total_subdomains": 146,
+        "unique_subdomains": [
+          "au-cs-syd26-1-gy-corpa-nvr02.corp.google.com",
+          "wap.google.com",
+          "help.google.com",
+          "ca-edg-yyz10-4-ac-corpa-nvr01.corp.google.com",
+          "profiles.google.com",
+          "jp-cs-nrt41-3-xx-corpa-nvr01.corp.google.com",
+          "kr-edg-icn02-1-ac-corpa-nvr01.corp.google.com",
+          "us.cloud.google.com",
+          "us-yti-atl41-1-kn-corpa-nvr01.corp.google.com",
+          "ns4.google.com",
+          "music.google.com",
+          "ch-yti-zrh40-0-dp-corpa-nvr01.corp.google.com",
+          "us-cs-lax65-1-xx-corpa-nvr02.corp.google.com",
+          "cl-cs-scl37-1-xx-corpa-nvr02.corp.google.com",
+          "upload.google.com",
+          "us-edg-mia09-1-ac-corpa-nvr01.corp.google.com",
+          "us-cs-lax65-1-xx-corpa-nvr01.corp.google.com",
+          "au-yti-syd41-2-gz-corpa-nvr01.corp.google.com",
+          "de-cs-fra56-1-xx-corpa-nvr02.corp.google.com",
+          "us-edg-atl14-1-ac-corpa-nvr01.corp.google.com",
+          "smtp.google.com",
+          "ch-yti-zrh40-0-dp-corpa-nvr02.corp.google.com",
+          "us-cgn-sfo09-1-xx-corpa-nvr01.corp.google.com",
+          "de-cs-fra50-1-xx-corpa-nvr02.corp.google.com",
+          "mx-edg-qro02-1-ac-corpa-nvr01.corp.google.com",
+          "vincuna.bld.corp.google.com",
+          "sg-cs-sin30-3-xx-corpa-nvr01.corp.google.com",
+          "tw-edg-tsa01-1-ac-corpa-nvr01.corp.google.com",
+          "www5.google.com",
+          "us-edg-sfo03-1-ac-corpa-nvr01.corp.google.com",
+          "ca-cs-yyz18-1-xx-corpa-nvr01.corp.google.com",
+          "sg-edg-sin11-1-ac-corpa-nvr01.corp.google.com",
+          "us-cs-cbf65-1-xx-corpa-nvr01.corp.google.com",
+          "br-edg-rio07-1-ac-corpa-nvr01.corp.google.com",
+          "search.google.com",
+          "mail.google.com",
+          "us-cs-iad67-2-xx-corpa-nvr01.corp.google.com",
+          "console.us.cloud.google.com",
+          "webmaster.google.com",
+          "images.google.com",
+          "aistudio.google.com",
+          "us-edg-lga34-2-ac-corpa-nvr01.corp.google.com",
+          "code.google.com",
+          "www6.google.com",
+          "uk-edg-lhr25-1-ac-corpa-nvr01.corp.google.com",
+          "email.google.com",
+          "nl-cs-grq23-1-xx-corpa-nvr02.corp.google.com",
+          "ns.google.com",
+          "uk-edg-lhr48-1-ac-corpa-nvr01.corp.google.com",
+          "us-yti-atl41-1-kn-corpa-nvr02.corp.google.com",
+          "kr-edg-icn01-1-ac-corpa-nvr01.corp.google.com",
+          "in.cloud.google.com",
+          "us-cs-iad69-1-xx-corpa-nvr02.corp.google.com",
+          "ns3.google.com",
+          "us-edg-lax31-1-ac-corpa-nvr01.corp.google.com",
+          "console.uk.cloud.google.com",
+          "www.google.com",
+          "us-edg-ord38-1-ac-corpa-nvr01.corp.google.com",
+          "br-cs-gru23-1-xx-corpa-nvr02.corp.google.com",
+          "workshare9-uat.corp.google.com",
+          "de-cs-fra56-1-xx-corpa-nvr01.corp.google.com",
+          "jp-cs-nrt41-3-xx-corpa-nvr02.corp.google.com",
+          "us-cgn-sfo09-1-xx-corpa-nvr02.corp.google.com",
+          "us-edg-dfw28-4-ac-corpa-nvr01.corp.google.com",
+          "us-edg-las15-1-ac-corpa-nvr01.corp.google.com",
+          "ca-cs-yyz18-1-xx-corpa-nvr02.corp.google.com",
+          "profile.google.com",
+          "ca-cs-yul09-1-xx-corpa-nvr02.corp.google.com",
+          "account.google.com",
+          "br-edg-rio09-1-ac-corpa-nvr01.corp.google.com",
+          "us-cs-dfw36-5-xx-corpa-nvr01.corp.google.com",
+          "gb-cs-lhr65-1-xx-corpa-nvr02.corp.google.com",
+          "au-yti-syd41-2-gz-corpa-nvr02.corp.google.com",
+          "uk.cloud.google.com",
+          "us-gve-dfw37-1-xx-corpa-nvr01.corp.google.com",
+          "news.google.com",
+          "br-edg-gru06-1-ac-corpa-nvr01.corp.google.com",
+          "gb-cs-lhr61-2-xx-corpa-nvr01.corp.google.com",
+          "de-cs-fra50-1-xx-corpa-nvr01.corp.google.com",
+          "sg-edg-sin10-1-ac-corpa-nvr01.corp.google.com",
+          "us-edg-ord37-1-ac-corpa-nvr01.corp.google.com",
+          "research.google.com",
+          "doc.google.com",
+          "cloud.google.com",
+          "console.in.cloud.google.com",
+          "support.google.com",
+          "es-edg-mad07-1-ac-corpa-nvr01.corp.google.com",
+          "jp-edg-nrt20-1-ac-corpa-nvr01.corp.google.com",
+          "nl-cs-grq23-1-xx-corpa-nvr01.corp.google.com",
+          "hk-edg-hkg07-3-ac-corpa-nvr01.corp.google.com",
+          "tw-edg-tsa03-1-ac-corpa-nvr01.corp.google.com",
+          "us-cs-hio03-1-xx-corpa-nvr02.corp.google.com",
+          "us-edg-alt26-1-ac-corpa-nvr01.corp.google.com",
+          "us-cs-cbf65-1-xx-corpa-nvr02.corp.google.com",
+          "us-cs-iad67-2-xx-corpa-nvr02.corp.google.com",
+          "ca-cs-yul09-1-xx-corpa-nvr01.corp.google.com",
+          "radius-machineauth-anycast.corp.google.com",
+          "ma-edg-kul08-1-ac-corpa-nvr01.corp.google.com",
+          "ns1.google.com",
+          "vpn.google.com",
+          "files.google.com",
+          "ma-edg-kul09-1-ac-corpa-nvr01.corp.google.com",
+          "us-cs-hio03-1-xx-corpa-nvr01.corp.google.com",
+          "sandbox.google.com",
+          "url.google.com",
+          "il-cs-tlv14-1-xx-corpa-nvr02.corp.google.com",
+          "gb-cs-lhr61-2-xx-corpa-nvr02.corp.google.com",
+          "archive.google.com",
+          "admin.google.com",
+          "blog.google.com",
+          "hk-edg-hkg12-12-ac-corpa-nvr01.corp.google.com",
+          "us-edg-sea30-1-ac-corpa-nvr01.corp.google.com",
+          "docs.google.com",
+          "api.google.com",
+          "us-cs-iad69-1-xx-corpa-nvr01.corp.google.com",
+          "datacompute.google.com",
+          "accounts.google.com",
+          "ns2.google.com",
+          "www9.google.com",
+          "us-edg-slc09-1-ac-corpa-nvr01.corp.google.com",
+          "download.google.com",
+          "br-cs-gru23-1-xx-corpa-nvr01.corp.google.com",
+          "us-edg-nuq04-1-ac-corpa-nvr01.corp.google.com",
+          "gb-cs-lhr65-1-xx-corpa-nvr01.corp.google.com",
+          "us-edg-las14-1-ac-corpa-nvr01.corp.google.com",
+          "video.google.com",
+          "us-edg-lga25-1-ac-corpa-nvr01.corp.google.com",
+          "cl-cs-scl37-1-xx-corpa-nvr01.corp.google.com",
+          "web.google.com",
+          "sg-cs-sin30-3-xx-corpa-nvr02.corp.google.com",
+          "mobile.google.com",
+          "jp-edg-nrt12-1-ac-corpa-nvr01.corp.google.com",
+          "us-cs-lax61-29-xx-corpa-nvr02.corp.google.com",
+          "shop.google.com",
+          "android.clients.google.com",
+          "crowdsource.google.com",
+          "il-cs-tlv14-1-xx-corpa-nvr01.corp.google.com",
+          "www4.google.com",
+          "us-chs-chs31-1-xx-corpa-nvr01.corp.google.com",
+          "us-gve-dfw37-1-xx-corpa-nvr02.corp.google.com",
+          "us-cs-iad39-1-xx-corpa-nvr01.corp.google.com",
+          "au-cs-syd26-1-gy-corpa-nvr01.corp.google.com",
+          "www10.google.com",
+          "m.google.com",
+          "appengine.google.com",
+          "ca-edg-yyz12-1-ac-corpa-nvr01.corp.google.com"
+        ],
+        "methods_used": 3,
+        "scan_duration": "2025-08-02 04:11:06"
+      },
+      "amass_results": {
+        "domain": "google.com",
+        "scan_type": "amass_comprehensive",
+        "timestamp": "2025-08-02 04:11:06",
+        "scans": {},
+        "summary": {
+          "total_unique_subdomains": 0,
+          "unique_subdomains": [],
+          "sources_used": [],
+          "scans_completed": 0
+        }
+      }
+    }
+  },
+  "summary": {}
+}

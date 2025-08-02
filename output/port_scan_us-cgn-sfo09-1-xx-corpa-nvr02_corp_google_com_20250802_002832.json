@@ -1,0 +1,12 @@
+{
+  "target": "us-cgn-sfo09-1-xx-corpa-nvr02.corp.google.com",
+  "scan_type": "port_scan",
+  "timestamp": "2025-08-02 00:28:32",
+  "open_ports": [],
+  "total_open": 0,
+  "total_scanned": 0,
+  "scan_settings": {
+    "threads": 50,
+    "timeout": 10
+  }
+}

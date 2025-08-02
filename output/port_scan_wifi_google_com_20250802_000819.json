@@ -1,0 +1,25 @@
+{
+  "target": "wifi.google.com",
+  "scan_type": "port_scan",
+  "timestamp": "2025-08-02 00:08:19",
+  "open_ports": [
+    {
+      "port": 443,
+      "status": "open",
+      "service": "HTTPS",
+      "timestamp": "2025-08-02 00:08:09"
+    },
+    {
+      "port": 80,
+      "status": "open",
+      "service": "HTTP",
+      "timestamp": "2025-08-02 00:08:09"
+    }
+  ],
+  "total_open": 2,
+  "total_scanned": 24,
+  "scan_settings": {
+    "threads": 50,
+    "timeout": 10
+  }
+}

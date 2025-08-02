@@ -1,0 +1,19 @@
+{
+  "target": "mtalk.google.com",
+  "scan_type": "port_scan",
+  "timestamp": "2025-08-02 00:03:30",
+  "open_ports": [
+    {
+      "port": 443,
+      "status": "open",
+      "service": "HTTPS",
+      "timestamp": "2025-08-02 00:03:20"
+    }
+  ],
+  "total_open": 1,
+  "total_scanned": 24,
+  "scan_settings": {
+    "threads": 50,
+    "timeout": 10
+  }
+}
